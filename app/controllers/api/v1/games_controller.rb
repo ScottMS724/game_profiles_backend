@@ -12,7 +12,23 @@ class Api::V1::GamesController < ApplicationController
         else
             render json: {errors: game.errors.full_messages}, status: :unprocessible_entity 
         end
+    end 
+
+    def destroy 
+        game = Game.find(params[:id])
+        game.destroy
+        render json: game 
     end
+
+    def update
+        game.update(game_params)
+        if game.save
+            render json: game, status: 200
+        else
+            render json: { errors: game.errors.full_messages }, status: :unprocessible_entity
+        end
+    end
+
 
     private
 
