@@ -3,8 +3,8 @@
 <h4>Description</h4>
 This app allows for the creation of your own game profiles for your favorite video games. Insert a picture, write your own review, and add a rating out of 10.
 
-<h4>Installation Instructions</h4>
-Deployment soon..
+<h4>Usage</h4>
+https://game-profiles-frontend.vercel.app/
 
 <h4>Contributing</h4>
 Bug reports and pull requests are welcome on GitHub at https://github.com/ScottMS724/game_profiles_backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
